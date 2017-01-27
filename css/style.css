@@ -1,0 +1,315 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 Dec, 2016, 3:27:22 PM
+    Author     : sanjay
+*/
+
+
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;height: 100%}
+body{font-family:'Asap', sans-serif; margin:0;height: 100% ;padding-top: 65px;
+     background-color: #f6f8f4;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    padding: 13px;   
+    font-size: 15px;
+}
+
+.check{
+    height: 15px;
+    width: 15px;
+    border-radius: 0px;
+}
+
+hr.style17 {
+    border-top: 1px solid #8c8b8b;
+    text-align: center;
+}
+
+hr.style17:after {
+    content: '§';
+    display: inline-block;
+    position: relative;
+    top: -14px;
+    padding: 0 10px;
+    background: #f0f0f0;
+    color: #8c8b8b;
+    font-size: 18px;
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+
+.panel-grey {
+    border-color: #a1a1a1;
+}
+.panel-grey > .panel-heading {
+    color: #fff;
+    font-size: 16px;
+    background-color: #a1a1a1;
+    border-color: #a1a1a1;
+    border-radius: 0px;
+}
+.panel{
+    border-radius: 0px;
+    border: none;
+}
+
+.panel-primary > .panel-heading {
+    border-radius: 0px;
+}
+
+.btn-primary {
+    border-color: transparent;
+}
+
+.btn-default:hover{
+    color: #000;
+}
+
+.alert{
+    border-radius: 0px;
+    border: none;
+}
+.scrollable-menu{
+    max-height: 350px;
+    overflow: auto;
+}
+.modal-content{
+    border-radius: 0px;
+}
+
+.panel-success > .panel-heading{
+    background-color: #70c75e;
+    color: #fff;
+}
+
+/* ===================== button property =======================  */
+.btn{
+    border-radius: 0px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn:hover{
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+    transition: all 0.5s ease 0s;
+    border-color: transparent;
+}
+
+.btn-info{
+    background-color:  #6ca8f2;
+    border-color: #6ca8f2;
+}
+
+
+.btn-success{
+    background-color: #7cbe52;
+    border-color: #7cbe52;
+}
+.btn-primary{
+    background-color: #518fae;
+}
+/* ====================== breadcrumb ===========================  */
+.breadcrumb
+{
+    padding:12px 45px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #e5e5e5;
+    font-size: 14px;
+    border-radius: 0px;
+    color: #000;
+}
+
+/* ================== hover / slide animation ======================== */
+.animate {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/*=============== Hover ===============*/
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+.hovereffect .overlay {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    padding-top: 16px;
+    padding-left: 10px;
+    height: 3.75em;
+    background: #CDCDC8;
+    color: #000;
+    transition: transform 0.25s;
+    -webkit-transform: translate3d(0,100%,0);
+}
+
+.button 
+{
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    height: 38px;
+    width: 130px;
+}
+
+
+.hovereffect h2,
+.hovereffect:hover .overlay,
+.hovereffect:hover h2,
+.hovereffect:hover p.icon-links a {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover p.icon-links a:nth-child(2) {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+.hovereffect:hover p.icon-links a:first-child {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+.glyphicon
+{
+    font-size: 14px;
+}
+
+.btn-group {  
+    white-space: nowrap;              
+}
+.btn-group .btn {  
+    float: none;
+    display: inline-block;
+}
+.btn + .dropdown-toggle { 
+    margin-left: -4px;
+}
+
+.table-responsive {
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+}
+
+
+/* ================= navbar property =============== */
+
+.navbar-nav > li >a{
+    padding: 14px 14px;
+}
+.navbar-brand{
+    font-size: 20px; padding: 0px !important;
+}
+
+.navbar-brand img {
+    max-height: 70px;
+    padding: 5px;
+}
+
+/* ===================== form-control , text boxes ================== */
+.form-control{
+    font-size: 15px;
+    border-radius: 0px;
+    /*border-color: #5f879e;*/
+    height: 40px;
+}
+
+.navbar-default{
+    height: 70px;
+    background-color: #3882ad;
+}
+
+
+.btn-group-justified>.btn,.btn-group-justified>.btn-group{display:table-cell;}
+
+
+/*---------------------box- -------------------------------- */
+
+.box {
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 10px 10px;
+    display: block;
+    margin-top: 10px;
+}
+.box-icon {
+    background-color: #57a544;
+    border-radius: 50%;
+    display: table;
+    height: 70px;
+    margin: 0 auto;
+    width: 70px;
+    margin-top: -61px;
+}
+.box-icon span {
+    color: #fff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.info h4 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.info > p {
+    color: #717171;
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: justify;
+}
+.info > a {
+    background-color: #03a9f4;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+.info > a:hover {
+    background-color: #0288d1;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+
+.btn{
+    outline: 0;
+    outline-offset: 0;
+    border: 0;
+    border-radius: 2px;
+    -o-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
